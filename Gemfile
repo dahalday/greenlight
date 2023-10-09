@@ -8,7 +8,7 @@ git_source(:github) do |repo_name|
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 7.1.0'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -104,7 +104,7 @@ end
 group :test do
   # Include Rspec and other testing utilities.
   gem 'rspec-rails', '~> 3.7'
-  gem 'action-cable-testing'
+  gem 'action-cable-testing', '>= 0.6.0'
   gem 'rails-controller-testing'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'faker'
