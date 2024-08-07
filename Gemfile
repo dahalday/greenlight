@@ -57,7 +57,7 @@ gem 'net-ldap'
 gem 'bigbluebutton-api-ruby'
 
 # Front-end.
-gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap', '~> 5.0.0'
 gem 'tabler-rubygem', git: 'https://github.com/blindsidenetworks/tabler-rubygem.git', tag: '0.1.4.1'
 gem 'pagy'
 gem 'font-awesome-sass', '~> 5.9.0'
