@@ -8,7 +8,7 @@ git_source(:github) do |repo_name|
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.7'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -57,7 +57,7 @@ gem 'net-ldap'
 gem 'bigbluebutton-api-ruby'
 
 # Front-end.
-gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap', '~> 4.6.2', '>= 4.6.2.1'
 gem 'tabler-rubygem', git: 'https://github.com/blindsidenetworks/tabler-rubygem.git', tag: '0.1.4.1'
 gem 'pagy'
 gem 'font-awesome-sass', '~> 5.9.0'
