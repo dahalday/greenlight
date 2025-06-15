@@ -108,7 +108,7 @@ group :test do
   gem 'rails-controller-testing'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'faker'
-  gem "factory_bot_rails"
+  gem "factory_bot_rails", ">= 6.5.0"
   gem 'webmock'
 end
 
